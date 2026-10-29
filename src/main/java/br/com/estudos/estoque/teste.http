@@ -1,0 +1,9 @@
+PUT http://localhost:8080/produtos/999999
+Content-Type: application/json
+
+{
+  "nome": "Pera",
+  "preco": 6.90,
+  "tipo": "Fruta",
+  "estoque": 12
+}
